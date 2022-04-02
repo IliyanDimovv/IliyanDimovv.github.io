@@ -15,7 +15,7 @@ body {
 .circular {
   height: 100px;
   width: 100px;
-  position: fixed;
+  position: absolute;
   margin-left: 48%;
   margin-top: 2%;
   transform: scale(2);
@@ -95,7 +95,7 @@ body {
   padding: 5%;
 }
 
-@media screen and (max-width: 320px) {
+/*@media screen and (max-width: 320px) {
   .circular {
     height: 100px;
     width: 100px;
@@ -104,7 +104,72 @@ body {
     transform: scale(1.5);
   }
 
-  #title-switcher {
-    font-size: 20px;
+  @media screen and (max-width: 390px) {
+    .circular {
+      height: 100px;
+      width: 100px;
+      margin-left: 37%;
+      margin-top: 30%;
+      transform: scale(1.5);
+    }
+  }*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 414px) {
+
+  .circular {
+    height: 100px;
+    width: 100px;
+    margin-left: 37%;
+    margin-top: 25%;
+    transform: scale(1.5);
   }
+
+}
+
+@media only screen and (min-width: 820px) {
+
+  .circular {
+    height: 100px;
+    width: 100px;
+    margin-left: 45%;
+    margin-top: 35%;
+    transform: scale(3);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .circular {
+    height: 100px;
+    width: 100px;
+    margin-left: 45%;
+    margin-top: 10%;
+    transform: scale(2);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .circular {
+    height: 100px;
+    width: 100px;
+    margin-left: 45%;
+    margin-top: 10%;
+    transform: scale(2);
+  }
+}
+
+@media only screen and (min-width: 540px) {
+
+  .circular {
+    height: 100px;
+    width: 100px;
+    margin-left: 45%;
+    margin-top: 10%;
+    transform: scale(2);
+  }
+}
+
+#title-switcher {
+  font-size: 24px;
 }
