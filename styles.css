@@ -6,7 +6,6 @@
 
 html,
 body {
-  display: grid;
   height: 100%;
   text-align: center;
   place-items: center;
@@ -16,7 +15,9 @@ body {
 .circular {
   height: 100px;
   width: 100px;
-  position: relative;
+  position: fixed;
+  margin-left: 48%;
+  margin-top: 2%;
   transform: scale(2);
 }
 
@@ -87,5 +88,23 @@ body {
 @keyframes right {
   100% {
     transform: rotate(180deg);
+  }
+}
+
+#title-switcher {
+  padding: 5%;
+}
+
+@media screen and (max-width: 320px) {
+  .circular {
+    height: 100px;
+    width: 100px;
+    margin-left: 37%;
+    margin-top: 30%;
+    transform: scale(1.5);
+  }
+
+  #title-switcher {
+    font-size: 20px;
   }
 }

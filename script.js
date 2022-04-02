@@ -44,3 +44,15 @@ var elem = document.getElementById("title-switcher");
 
 count = new Counter(elem, 2000);
 count.start();
+
+(function () {
+  var s = document.getElementById('title-switcher').style,
+    f = false,
+    c1 = '#000000',
+    c2 = '#286428';
+
+  setInterval(function () {
+    s.color = f ? c2 : c1;
+    f = !f;
+  }, 3000);
+})();
