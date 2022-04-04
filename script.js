@@ -49,7 +49,7 @@ count.start();
   var s = document.getElementById('title-switcher').style,
     f = false,
     c1 = '#000000',
-    c2 = '#0EC844';
+    c2 = '#307e30';
 
   setInterval(function () {
     s.color = f ? c2 : c1;
