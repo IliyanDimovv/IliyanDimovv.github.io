@@ -117,7 +117,7 @@ body {
   }
 }*/
 
-@media only screen and (min-width: 320px) and (max-width: 414px) {
+@media only screen and (min-width: 320px) and (max-width: 428px) {
 
   .circular {
     height: 100px;
